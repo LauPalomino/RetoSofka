@@ -16,8 +16,8 @@ public class Main {
         Jugador jugador = new Jugador();
         int respuesta = 0;
 
+        System.out.println("\n------BIENVENIDO------\n");
         Scanner entrada = new Scanner(System.in);
-
         System.out.println("Por favor, ingrese su nombre: ");
         jugador.setNombre(entrada.next());
 
